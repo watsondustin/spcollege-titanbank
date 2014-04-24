@@ -1,0 +1,101 @@
+/*
+Titan Bank CSS
+*/
+/*
+    Author     : Dustin
+*/
+
+/*------ BODY POSITION/BACKGROUND-COLOR - ALL PAGES ------*/
+body {
+    background-color: #0000cc;
+}
+#wrapper {
+    width: 800px;
+    margin: 25px auto;
+    overflow: hidden;
+}
+/*------ HEADER/BANNER - ALL PAGES ------*/
+header {
+    width: 796px;
+    height: 100px;
+    margin-left: 0px;
+    color: gold;
+    text-align: center;
+    background-color: #000000;
+    border: 2px solid #ffd700;
+}
+#title {
+    font-size: 40px;
+}
+/*------ NAVIGATION - ALL PAGES ------*/
+nav {
+    margin-top: 25px;
+    width: 800px;
+}
+nav a {
+    text-decoration: none;
+    margin-left: 55px;
+    color: #ffffff;
+}
+nav a:hover {
+    color: #ffd700;
+}
+/*------ LOGIN.JSP - LOGINFORM ------*/
+#loginForm {
+    width: 400px;
+    height: 100px;
+    margin: 25px auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 20px; 
+    -moz-border-radius: 20px; 
+    -webkit-border-radius: 20px;
+}
+/*------ ACCOUNT.JSP - CONTENT ------*/
+#accountContent {
+    width: 800px;
+    height: 500px;
+    margin-top: 25px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+}
+#accountContent h1 {
+    text-align: center;
+}
+#accountContent h3 {
+    padding: 0 25px;
+}
+#accountContent p {
+    padding: 0 25px;
+}
+/*------ TRANSFERS.JSP - CONTENT ------*/
+#transfersContent {
+    width: 800px;
+    height: 500px;
+    margin-top: 25px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+}
+#transfersContent h1 {
+    text-align: center;
+}
+#transferForm {
+    width: 300px;
+    margin-left: 25px;
+    padding: 10px;
+    border: 1px solid #000000;
+    float: left;
+}
+table{
+    width: 250px;
+    border: 1px solid #000000;
+    margin-left: 525px;
+    border-collapse: collapse;
+}
+table th {
+    border-bottom: 1px solid #000000;
+}
+table th, td {
+    border-left: 1px solid #000000;
+}
